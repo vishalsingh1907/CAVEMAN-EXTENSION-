@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      width: 200px;
+      padding: 10px;
+      font-family: sans-serif;
+    }
+    .toggle-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .status {
+      font-weight: bold;
+    }
+    .on { color: green; }
+    .off { color: red; }
+  </style>
+</head>
+<body>
+  <h3>Caveman Mode</h3>
+  <div class="toggle-container">
+    <span>Status: <span id="statusText" class="status">On</span></span>
+    <button id="toggleBtn">Toggle</button>
+  </div>
+  <p style="font-size: 0.8em; color: #666;">
+    Automatically shortens prompts on Claude.ai while you type.
+  </p>
+  <script src="popup.js"></script>
+</body>
+</html>

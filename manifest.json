@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Claude Caveman Compressor",
+  "version": "1.0",
+  "description": "Automatically shortens prompts on Claude.ai to save tokens using smart caveman rules.",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://claude.ai/*"],
+      "js": ["compressor.js", "content.js"]
+    }
+  ]
+}
