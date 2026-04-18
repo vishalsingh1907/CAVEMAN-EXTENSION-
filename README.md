@@ -21,7 +21,7 @@ The extension monitors the input box on Claude.ai. When you stop typing for a se
 
 ## Setup Instructions
 
-Since this is a custom extension, you need to load it manually into Chrome:
+This is a custom extension, you need to load it manually into Chrome:
 
 1. **Download the files**: Ensure you have all the extension files in a single folder (e.g., `claude-prompt-shortener`).
 2. **Open Chrome Extensions**: Go to `chrome://extensions/` in your browser.
